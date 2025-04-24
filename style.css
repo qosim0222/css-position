@@ -114,3 +114,94 @@ border: 1px solid #ddd;
     left: 50%;
     transform: translateX(-50%) rotate(180deg);
   }
+
+  /* ############################################################################################################### */
+
+  .head {
+    width: 400px;
+    height: 400px;
+    background:rgb(238, 101, 101) ;
+    border-radius: 50% 50% 20% 20%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .lefthead{
+    background-color: #FFF1C1;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    right: 20px;
+  }
+
+  .righthead {
+    background-color: #FFF1C1;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 20px;
+  }
+
+  .leftiye {
+    background-color: #FFF1C1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 90px;
+    left: 35px;
+  }
+
+  .rightiye {
+    background-color: #FFF1C1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 90px;
+    right: 35px;
+  }
+
+  .mouth {
+    background-color: #FFF1C1;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 160px;
+}
+
+/* ################################################################################## */
+
+
+.square1 {
+  background-color: #0a6012;
+  width: 370px;
+  height: 370px;
+  display: flex;
+  align-items:flex-end;
+  justify-content:flex-start;
+}
+
+.square2 {
+  background-color: #998235;
+  width: 185px;
+  height: 185px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.square3 {
+  background-color: rgb(47, 47, 101);
+  width: 92px;
+  height: 92px;
+}
+
